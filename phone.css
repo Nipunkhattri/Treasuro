@@ -1,0 +1,34 @@
+@media(max-width:674px){
+    #navbar{
+        justify-content: center;
+        flex-direction: column;
+    }
+    /* #navbar ul{
+        /* margin-top: 78px; 
+        margin-left: auto;
+    } */
+    .first{
+        justify-content: center;
+    }
+    input{
+        width: auto;
+    }
+    #home{
+        margin-right: 4px;
+    }
+}
+@media(max-width:464px){
+    #navbar ul{
+        flex-direction: column;
+        justify-content: center;
+        /* margin-top: 45px; */
+        /* margin-right: 40px; */
+        margin: auto;
+    }
+    #home::before{
+        margin: 6px 6px;
+    }
+    .btn{
+        margin-left: 22px;
+    }
+}
